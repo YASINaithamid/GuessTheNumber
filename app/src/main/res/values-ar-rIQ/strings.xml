@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">لعبة التخمين</string>
+    <string name="str_devinez">خمن</string>
+    <string name="str_score">نتيجة</string>
+    <string name="str_buttonok">هيا</string>
+    <string name="sup_valeur">أكبر</string>
+    <string name="inf_valeur">الأصغر</string>
+    <string name="str_bravo">حسن</string>
+    <string name="str_rejouer">العب مرة أخرى</string>
+    <string name="oui">نعم</string>
+    <string name="quiter">خروج</string>
+</resources>

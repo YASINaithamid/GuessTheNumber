@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/textViewDevinez"
+        android:layout_width="161dp"
+        android:layout_height="46dp"
+        android:text="@string/str_devinez"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:autoSizeTextType="uniform" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="406dp"
+        android:layout_height="90dp"
+        android:ems="10"
+        android:inputType="number"
+        android:translationX="5dp"
+        android:translationY="100dp" />
+
+    <TextView
+        android:id="@+id/textViewscore"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/str_score"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:translationX="50dp" />
+
+    <TextView
+        android:id="@+id/textViewNumber"
+        android:layout_width="82dp"
+        android:layout_height="43dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="19dp"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="115dp"
+        android:layout_marginEnd="7dp"
+        android:background="#14CA1C"
+        android:text="@string/str_buttonok" />
+
+    <ProgressBar
+        android:id="@+id/progressBarTentatives"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="548dp"
+        android:layout_height="74dp"
+        android:translationY="200dp" />
+
+    <TextView
+        android:id="@+id/textViewTentatives"
+        android:layout_width="63dp"
+        android:layout_height="48dp"
+        android:text="0"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:translationX="280dp"
+        android:translationY="300dp" />
+
+    <TextView
+        android:id="@+id/textViewIndication"
+        android:layout_width="255dp"
+        android:layout_height="55dp"
+        android:text="...."
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:translationY="300dp" />
+
+    <ListView
+        android:id="@+id/listViewHistorique"
+        android:layout_width="350dp"
+        android:layout_height="220dp"
+        android:translationY="400dp" />
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">First Game</string>
+    <string name="str_devinez">Guess</string>
+    <string name="str_score">Score</string>
+    <string name="str_buttonok">Go</string>
+    <string name="sup_valeur">greater</string>
+    <string name="inf_valeur">smaller</string>
+    <string name="str_bravo">good</string>
+    <string name="str_rejouer">play again</string>
+    <string name="oui">YES</string>
+    <string name="quiter">EXIT</string>
+</resources>
